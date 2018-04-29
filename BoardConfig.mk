@@ -1,10 +1,9 @@
 
 include device/samsung/exynos7580-common/BoardConfigCommon.mk
 
-TARGET_KERNEL_CONFIG := lineageos_s5neolte_defconfig
+TARGET_KERNEL_CONFIG := lineageos_gvwifi_defconfig
 
-#BOARD_MKBOOTIMG_ARGS += --dt device/samsung/s5neolte/prebuilt/dt.img --board SYSMAGIC000KU
-BOARD_MKBOOTIMG_ARGS += --board SYSMAGIC000KU
+BOARD_MKBOOTIMG_ARGS += --board FPRPGVWI000K
 
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos

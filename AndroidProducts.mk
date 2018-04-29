@@ -1,1 +1,1 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_s5neolte.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_gvwifi.mk

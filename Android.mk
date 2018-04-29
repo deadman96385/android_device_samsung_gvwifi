@@ -1,4 +1,4 @@
-ifneq ($(filter s5neolte,$(TARGET_DEVICE)),)
+ifneq ($(filter gvwifi,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
